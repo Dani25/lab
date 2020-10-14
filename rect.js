@@ -16,7 +16,7 @@ function on_device_orientation(evt)
 	var latura_patrat = 50;
 	
 
-
+	context.clearRect(0, 0, c.width, c.height);
 	context.fillStyle = "#FF6600";
 	context.fillText("Beta: " + Math.round(event.beta), 10, 140);
 	context.beginPath();
